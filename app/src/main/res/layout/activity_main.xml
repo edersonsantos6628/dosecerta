@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/addremedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionarRemedio"
+        android:textSize="30dp"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="5sp"
+        />
+
+    <EditText
+        android:id="@+id/nomeremedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="@string/nomeRemedio"
+        android:background="@drawable/bg_edittext"
+        android:padding="12dp"/>
+
+
+
+    <EditText
+        android:id="@+id/dosagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="@string/dosagem"
+        android:background="@drawable/bg_edittext"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/forma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="@string/forma"
+        android:background="@drawable/bg_edittext"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/addfoto"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        android:text="@string/addFoto"
+        android:backgroundTint="@color/blue"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_edittext"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:text="@string/quantidade"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/dgtquantidade"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="12dp"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_edittext"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:text="@string/validade"
+
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/dgtvalidade"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:padding="12dp"
+            android:background="null"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        android:text="@string/salvar"
+        android:backgroundTint="@color/blue"/>
+
+
+
+
+</LinearLayout>

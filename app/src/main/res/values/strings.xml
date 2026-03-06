@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exemplon1</string>
+
+    <string name="adicionarRemedio">Adicionar Remédio</string>
+
+    <string name="nomeRemedio" >Nome</string>
+
+    <string name="dosagem">Dosagem</string>
+
+    <string name="forma">Forma</string>
+
+    <string name="addFoto">Adicionar uma foto</string>
+
+    <string name="quantidade">Quantidade:</string>
+
+    <string name="validade">Validade:</string>
+
+    <string name="salvar">Salvar</string>
+</resources>
