@@ -10,18 +10,15 @@
     tools:context=".MainActivity">
 
 
-
-
     <TextView
         android:id="@+id/addremedio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="30sp"
         android:text="@string/adicionarRemedio"
         android:textSize="30dp"
-        android:layout_marginTop="30sp"
-        android:textStyle="bold"
-        android:layout_marginStart="5sp"
-        />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/nomeremedio"
@@ -33,15 +30,14 @@
         android:padding="12dp"/>
 
 
-
     <EditText
         android:id="@+id/dosagem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="20sp"
-        android:hint="@string/dosagem"
         android:background="@drawable/bg_edittext"
-        android:padding="12dp"/>
+        android:hint="@string/dosagem"
+        android:padding="12dp" />
 
     <EditText
         android:id="@+id/forma"
@@ -121,7 +117,12 @@
         android:text="@string/salvar"
         android:backgroundTint="@color/blue"/>
 
-
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"/>
 
 
 </LinearLayout>
