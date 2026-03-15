@@ -8,6 +8,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
@@ -43,6 +44,8 @@ class MainActivity extends AppCompatActivity implements View
     public void onClick(View v) {
         if (v.getId() == R.id.addfoto) {
             escolherImagem();
+        } if (v.getId() == R.id.salvar){
+            Toast.makeText(this, "Remédio salvo!",Toast.LENGTH_SHORT).show();
         }
     }
 
